@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(50, 50, 50, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.forma{
+    border: 2px solid black ;
+    width: 30%;
+    height: 600px;
+    margin: 0 auto;
+    align-content: center;
+    align-self: center;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.979);
+    border-radius: 40px;
+}
+.monitor{
+    border: 4px solid black ;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px;
+    display: block;
+    font: large;
+    font-size: 70px;
+    background-color: rgb(113, 255, 113);
+    width: 80%;
+    height: 70px;
+}
+.botoes{
+    display: flex;
+    height: 70%;
+    margin: 30px;
+}
+.separador{
+    display: flex;
+    width: 80%;
+}
+
+.numeros {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    margin-left: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.numeros button:last-child{
+    background-color: rgba(255, 255, 255, 0.918);
+    font-size: 50px;
+    color: orange;
+}
+
+.numeros button:last-child{
+    background-color: rgba(255, 255, 255, 0.918);
+    font-size: 50px;
+    color: orange;
+    box-shadow:  5px 5px 0 0 black;
+}
+
+.numeros button:nth-child(10) {
+    background-color: rgba(255, 255, 255, 0.918);
+    font-size: 50px;
+    color: orange;
+    box-shadow:  5px 5px 0 0 black;
+}
+
+.numeros button{
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    width: 60px;
+    height: 70px;
+    box-shadow: 0 0 10px rgba(245, 176, 48);
+    background-color: rgb(245, 176, 48);
+    border-radius: 30px;
+
+    align-items: center;
+    align-self: center;
+}
+
+.operadores{
+    display: grid;
+    columns: 1;
+    gap: 10px;
+}
+
+.operadores button{
+    background-color: rgba(255, 255, 255);
+    font-size: 50px;
+    color: orange;
+    align-items: center;
+    align-self: center;
+    width: 50px;
+    height: 60px;
+    box-shadow:  5px 5px 0 0 black;
+    border-radius: 30px;
+}
